@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC
+        "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 以下是一些全局设置，可以不配置 -->
+    <settings>
+        <!--使用jdbc的getGeneratekeys，插入操作返回自增主键值-->
+        <setting name="useGeneratedKeys" value="true"/>
+    </settings>
+</configuration>
